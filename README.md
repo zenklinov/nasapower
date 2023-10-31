@@ -9,5 +9,3 @@ Key Features:
 2. Customize time intervals and temporal averages.
 3. Select specific communities of interest.
 4. Modify data parameters, including precipitation, temperatures, and more.
-
-Whether you're a researcher, scientist, or developer, our codebase offers the flexibility and control you need to access and analyze NASA Power data with precision. Feel free to explore, contribute, and adapt this code to suit your unique requirements. We look forward to collaborating with you on this project!
