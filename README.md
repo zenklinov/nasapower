@@ -7,5 +7,4 @@ Key Features:
 
 1. Retrieve NASA Power data from regional grids.Utilize a single-point approach for regional grid adaptation.
 2. Customize time intervals and temporal averages.
-3. Select specific communities of interest.
-4. Modify data parameters, including precipitation, temperatures, and more.
+3. Select specific communities of interest (modify data parameters, including precipitation, temperatures, and more).
