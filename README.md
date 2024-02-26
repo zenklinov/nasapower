@@ -97,6 +97,8 @@ This data processing pipeline aims to facilitate the analysis and understanding 
 
 ### Step 4: Visualize Data
 - [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output.png): Map of Jawa Timur after data processing in Step 4.
+![Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output.png)
+
 ---
 
 Feel free to explore each step and adapt the scripts to your specific requirements.
