@@ -1,6 +1,5 @@
 import geopandas as gpd
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # Read  geometri data Jawa Timur from Shapefile
 jawa_timur = gpd.read_file('F:/jatim_kab.shp')
@@ -29,16 +28,6 @@ gdf = gpd.GeoDataFrame(data_combined, geometry=gpd.points_from_xy(data_combined[
 
 # Filter observation points within region
 filtered_data = gdf[gdf.within(jawa_timur.unary_union)]
-
-plt.scatter(filtered_data['Longitude'], filtered_data['Latitude'], color='red', marker='o', label='Titik Observasi')
-plt.title('0.05 Derajat x 0.05 Derajat, Jawa Timur (Wilayah Daratan)')
-plt.xlabel('Longitude')
-plt.ylabel('Latitude')
-
-# Show map
-plt.legend()
-plt.grid(True)
-plt.show()
 
 # exclude column 'geometry' before save to Excel
 filtered_data = filtered_data.drop(columns='geometry')
