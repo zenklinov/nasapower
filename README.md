@@ -11,7 +11,7 @@ Key Features:
 
 # NASA POWER Data Processing Pipeline
 
-This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of three main steps: getting data, pivoting data, and combining and preprocessing data. Below are the details of each step:
+This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of four main steps: getting data, pivoting data, combining and preprocessing data, and visualizing data. Below are the details of each step:
 
 ## Path 1: Step 1 (Getting Data)
 
@@ -48,7 +48,21 @@ This Python script combines the pivoted NASA POWER data from Step 2 and preproce
 4. Plot observation points on a map.
 5. Save the filtered data into an Excel file.
 
+## Path 4: Step 4 (Visualize Data)
+
+File: `Step 4 (Visualize Data).py`
+
+This Python script visualizes the filtered NASA POWER data within the geographical region of Jawa Timur. It reads shapefile data for Jawa Timur and Indonesia, as well as the filtered data from Step 3, and plots the observation points on a map.
+
+### Instructions
+1. Install and import the necessary Python libraries: `geopandas`, `pandas`, and `matplotlib`.
+2. Read geometrical data for Jawa Timur and Indonesia from shapefiles.
+3. Read filtered data from Step 3.
+4. Plot observation points on a map within the geographical boundaries of Jawa Timur.
+5. Display the map.
+
 ---
 
 Feel free to explore each step and adapt the scripts to your specific requirements.
+
 
