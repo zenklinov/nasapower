@@ -11,7 +11,7 @@ Key Features:
 
 # NASA POWER Data Processing Pipeline
 
-This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of four main steps: getting data, pivoting data, combining and preprocessing data, and visualizing data. Below are the details of each step:
+This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of four main steps: getting data, pivoting data, combining and filtering data, and visualizing data. Below are the details of each step:
 
 ## Path 1: Step 1 (Getting Data)
 
@@ -37,7 +37,7 @@ This R script pivots the downloaded NASA POWER data from wide to long format, wh
 
 ## Path 3: Step 3 (Combined and Filtered Data)
 
-File: `Step 3 (Combined and Preprocessing Data).py`
+File: `Step 3 (Combined and Filtered Data).py`
 
 This Python script combines the pivoted NASA POWER data from Step 2 and preprocesses it. It filters the data points within a specific geographical region (Jawa Timur) using shapefile data and plots the observation points on a map. Finally, it saves the filtered data into an Excel file.
 
