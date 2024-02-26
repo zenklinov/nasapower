@@ -96,6 +96,9 @@ This data processing pipeline aims to facilitate the analysis and understanding 
 - `nasa_power_data_filtered_within.xlsx`: Filtered NASA POWER data within the geographical region of Jawa Timur.
 
 ### Step 4: Visualize Data
+- `Indo and Jatim Kab_Kot SHP 2019.part01.rar` to `Indo and Jatim Kab_Kot SHP 2019.part06.rar`: RAR files containing shapefiles for Indonesia and Jawa Timur Kabupaten/Kota (districts) for the year 2019.
+Note: Shapefiles are compressed into multiple parts for easier distribution and download. Please make sure to extract all parts before use.
+
 - [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png): Map of Jawa Timur after data processing in Step 4.
 ![Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png)
 
