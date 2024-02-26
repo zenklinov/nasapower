@@ -35,7 +35,7 @@ This R script pivots the downloaded NASA POWER data from wide to long format, wh
 2. Specify the base path for input and output files.
 3. Run the script to pivot the data and save it into new Excel files.
 
-## Path 3: Step 3 (Combined and Preprocessing Data)
+## Path 3: Step 3 (Combined and Filtered Data)
 
 File: `Step 3 (Combined and Preprocessing Data).py`
 
@@ -73,7 +73,7 @@ In this step, the R script retrieves NASA POWER data for precipitation for a spe
 
 After downloading the data, it is pivoted from wide to long format. This transformation allows for easier analysis and visualization of the data, with longitude and latitude becoming rows and dates becoming columns.
 
-### Step 3: Combined and Preprocessing Data
+### Step 3: Combined and Filtered Data
 
 The pivoted data is then combined and preprocessed in Python. Geographical boundaries, specifically within the region of Jawa Timur, are used to filter the data, providing a subset of observations within this specific area.
 
@@ -92,12 +92,12 @@ This data processing pipeline aims to facilitate the analysis and understanding 
 ### Step 2: Pivot Data
 - `nasa_power_data_pivoted_part1.xlsx` to `nasa_power_data_pivoted_part19.xlsx`: Excel files containing pivoted NASA POWER data parts.
 
-### Step 3: Combined and Preprocessing Data
+### Step 3: Combined and Filtered Data
 - `nasa_power_data_filtered_within.xlsx`: Filtered NASA POWER data within the geographical region of Jawa Timur.
 
 ### Step 4: Visualize Data
-- [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output.png): Map of Jawa Timur after data processing in Step 4.
-![Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output.png)
+- [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png): Map of Jawa Timur after data processing in Step 4.
+![Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png)
 
 ---
 
