@@ -42,7 +42,7 @@ File: `Step 3 (Combined and Preprocessing Data).py`
 This Python script combines the pivoted NASA POWER data from Step 2 and preprocesses it. It filters the data points within a specific geographical region (Jawa Timur) using shapefile data and plots the observation points on a map. Finally, it saves the filtered data into an Excel file.
 
 ### Instructions
-1. Install and import the necessary Python libraries: `geopandas`, `pandas`, and `matplotlib`.
+1. Install and import the necessary Python libraries: `geopandas` and `pandas`.
 2. Read geometrical data for Jawa Timur from a shapefile.
 3. Combine and preprocess the data from Step 2.
 4. Plot observation points on a map.
@@ -61,6 +61,39 @@ This Python script visualizes the filtered NASA POWER data within the geographic
 4. Plot observation points on a map within the geographical boundaries of Jawa Timur.
 5. Display the map.
 
+## Data Explanation
+
+The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases.
+
+### Step 1: Getting Data
+
+In this step, the R script retrieves NASA POWER data for precipitation for a specified geographical area and time range. The data is downloaded for various latitude and longitude coordinates within the defined region.
+
+### Step 2: Pivot Data
+
+After downloading the data, it is pivoted from wide to long format. This transformation allows for easier analysis and visualization of the data, with longitude and latitude becoming rows and dates becoming columns.
+
+### Step 3: Combined and Preprocessing Data
+
+The pivoted data is then combined and preprocessed in Python. Geographical boundaries, specifically within the region of Jawa Timur, are used to filter the data, providing a subset of observations within this specific area.
+
+### Step 4: Visualize Data
+
+Finally, the filtered data is visualized on a map, providing a spatial representation of precipitation observations within Jawa Timur.
+
+This data processing pipeline aims to facilitate the analysis and understanding of precipitation patterns within the specified geographical region.
+
+
+## Data Files
+
+### Step 1: Getting Data
+- `nasa_power_data_part1.xlsx` to `nasa_power_data_part19.xlsx`: Excel files containing downloaded NASA POWER data parts.
+
+### Step 2: Pivot Data
+- `nasa_power_data_pivoted_part1.xlsx` to `nasa_power_data_pivoted_part19.xlsx`: Excel files containing pivoted NASA POWER data parts.
+
+### Step 3: Combined and Preprocessing Data
+- `nasa_power_data_filtered_within.xlsx`: Filtered NASA POWER data within the geographical region of Jawa Timur.
 ---
 
 Feel free to explore each step and adapt the scripts to your specific requirements.
