@@ -63,7 +63,7 @@ This Python script visualizes the filtered NASA POWER data within the geographic
 
 ## Data Explanation
 
-The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases.
+The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation or rainfall, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases.
 
 ### Step 1: Getting Data
 
@@ -94,6 +94,9 @@ This data processing pipeline aims to facilitate the analysis and understanding 
 
 ### Step 3: Combined and Preprocessing Data
 - `nasa_power_data_filtered_within.xlsx`: Filtered NASA POWER data within the geographical region of Jawa Timur.
+
+### Step 4: Visualize Data
+- [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output.png): Map of Jawa Timur after data processing in Step 4.
 ---
 
 Feel free to explore each step and adapt the scripts to your specific requirements.
