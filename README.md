@@ -61,7 +61,7 @@ This Python script visualizes the filtered NASA POWER data within the geographic
 4. Plot observation points on a map within the geographical boundaries of Jawa Timur.
 5. Display the map.
 
-## Data Explanation
+## Steps Explanation
 
 The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation or rainfall, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases.
 
