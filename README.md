@@ -11,7 +11,7 @@ Key Features:
 
 # NASA POWER Data Processing Pipeline
 
-This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of four main steps: getting data, pivoting data, combining and filtering data, and visualizing data. Below are the details of each step:
+This repository contains scripts for processing NASA POWER (Prediction Of Worldwide Energy Resources) data. The data processing pipeline consists of four main steps: getting data, pivoting data, combining and filtering data, and visualizing data. The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation or rainfall, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases. Below are the details of each step:
 
 ## Path 1: Step 1 (Getting Data)
 
@@ -25,6 +25,8 @@ This R script retrieves NASA POWER data for precipitation (parameter code: PRECT
 3. Run the script to download and save the data into Excel files.
 
 ## Path 2: Step 2 (Pivot Data)
+
+After downloading the data, it is pivoted from wide to long format. This transformation allows for easier analysis and visualization of the data, with longitude and latitude becoming rows and dates becoming columns.
 
 File: `Step 2 (Pivot Data).r`
 
@@ -60,29 +62,6 @@ This Python script visualizes the filtered NASA POWER data within the geographic
 3. Read filtered data from Step 3.
 4. Plot observation points on a map within the geographical boundaries of Jawa Timur.
 5. Display the map.
-
-## Steps Explanation
-
-The data retrieved in this project is from the NASA POWER (Prediction Of Worldwide Energy Resources) database. Specifically, the data pertains to precipitation or rainfall, represented by the parameter code "PRECTOTCORR". This data provides information about total precipitation corrected for gauge and other biases.
-
-### Step 1: Getting Data
-
-In this step, the R script retrieves NASA POWER data for precipitation for a specified geographical area and time range. The data is downloaded for various latitude and longitude coordinates within the defined region.
-
-### Step 2: Pivot Data
-
-After downloading the data, it is pivoted from wide to long format. This transformation allows for easier analysis and visualization of the data, with longitude and latitude becoming rows and dates becoming columns.
-
-### Step 3: Combined and Filtered Data
-
-The pivoted data is then combined and preprocessed in Python. Geographical boundaries, specifically within the region of Jawa Timur, are used to filter the data, providing a subset of observations within this specific area.
-
-### Step 4: Visualize Data
-
-Finally, the filtered data is visualized on a map, providing a spatial representation of precipitation observations within Jawa Timur.
-
-This data processing pipeline aims to facilitate the analysis and understanding of precipitation patterns within the specified geographical region.
-
 
 ## Data Files
 
