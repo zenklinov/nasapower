@@ -50,6 +50,8 @@ This repository hosts scripts for processing NASA POWER (Prediction Of Worldwide
 
 ## Data Files
 
+The data retrieved comprises precipitation or rainfall data for the region of Jawa Timur, Indonesia from the years 2018 to 2022
+
 ### Step 1: Getting Data
 - `nasa_power_data_part1.xlsx` to `nasa_power_data_part19.xlsx`: Excel files containing downloaded NASA POWER data parts.
 
@@ -61,7 +63,7 @@ This repository hosts scripts for processing NASA POWER (Prediction Of Worldwide
 
 ### Step 4: Visualize Data
 - `Indo and Jatim Kab_Kot SHP 2019.part01.rar` to `Indo and Jatim Kab_Kot SHP 2019.part06.rar`: RAR files containing shapefiles for Indonesia and Jawa Timur Kabupaten/Kota (districts) for the year 2019.
-  Note: Shapefiles are compressed into multiple parts for easier distribution and download. Please make sure to extract all parts before use.
+  Note: Shapefiles are compressed into multiple parts for easier distribution and download. Please make sure to extract all parts at the same time before use.
   
 - [Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png): Map of Jawa Timur after data processing in Step 4.
 ![Jawa Timur Map](https://github.com/zenklinov/nasapower/blob/main/output_map.png)
